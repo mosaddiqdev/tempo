@@ -20,6 +20,12 @@ body {
   justify-content: center;
   position: relative;
 
+  /* Disable text selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
   /* Smooth fade-in on load */
   opacity: 0;
   animation: fadeIn 0.3s ease-in-out forwards;

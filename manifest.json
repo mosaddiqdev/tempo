@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "TEMPO",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Your rhythm for focus - minimalist clock and bookmarks for new tab",
   "icons": {
     "16": "assets/icon-16.png",
