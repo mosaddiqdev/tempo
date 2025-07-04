@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEMPO</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon-16.png" />
+
+    <!-- Local fonts for optimal performance -->
+
+    <!-- Modular CSS -->
+    <link rel="stylesheet" href="src/css/fonts.css" />
+    <link rel="stylesheet" href="src/css/base.css" />
+    <link rel="stylesheet" href="src/css/layout.css" />
+    <link rel="stylesheet" href="src/css/clock.css" />
+    <link rel="stylesheet" href="src/css/theme.css" />
+    <link rel="stylesheet" href="src/css/bookmarks.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="clock-wrapper">
+        <div class="time-display" id="timeDisplay">
+          <span class="hours" id="hours"></span>
+          <span class="separator">:</span>
+          <span class="minutes" id="minutes"></span>
+        </div>
+        <div class="date-display" id="dateDisplay">
+          <span class="day" id="day"></span>
+          <span class="date" id="date"></span>
+        </div>
+      </div>
+
+      <!-- Subtle background elements -->
+      <div class="bg-gradient"></div>
+      <div class="bg-dots"></div>
+    </div>
+
+    <!-- Modular JavaScript -->
+    <script type="module" src="src/js/main.js"></script>
+  </body>
+</html>

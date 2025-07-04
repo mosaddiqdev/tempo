@@ -1,0 +1,68 @@
+/* Theme and color definitions */
+:root {
+  /* Background colors */
+  --bg-primary: #1a1a1e;
+  --bg-gradient-start: #2a2a2e;
+  --bg-gradient-end: #1a1a1e;
+  --bg-dots: rgba(240, 240, 240, 0.015);
+  
+  /* Text colors */
+  --text-primary: #e8e8e8;
+  --text-clock-start: #f0f0f0;
+  --text-clock-end: #d0d0d0;
+  --text-day: #b8b8b8;
+  --text-date: #9a9a9a;
+  
+  /* Effects */
+  --text-shadow-clock: rgba(240, 240, 240, 0.15);
+  --separator-opacity: 0.75;
+  --date-opacity: 0.7;
+}
+
+/* Theme application */
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.bg-gradient {
+  background: radial-gradient(ellipse at center, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 70%);
+}
+
+.bg-dots {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    var(--bg-dots) 1px,
+    transparent 0
+  );
+}
+
+.hours,
+.minutes,
+.separator {
+  background: linear-gradient(135deg, var(--text-clock-start) 0%, var(--text-clock-end) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hours,
+.minutes {
+  text-shadow: 0 0 30px var(--text-shadow-clock);
+}
+
+.separator {
+  opacity: var(--separator-opacity);
+}
+
+.date-display {
+  opacity: var(--date-opacity);
+}
+
+.day {
+  color: var(--text-day);
+}
+
+.date {
+  color: var(--text-date);
+}

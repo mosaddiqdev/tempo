@@ -1,0 +1,60 @@
+/* Layout and positioning */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.clock-wrapper {
+  text-align: center;
+  position: relative;
+  z-index: 20;
+}
+
+/* Background elements */
+.bg-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, #2a2a2e 0%, #1a1a1e 70%);
+  z-index: 1;
+}
+
+.bg-dots {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(240, 240, 240, 0.015) 1px,
+    transparent 0
+  );
+  background-size: 40px 40px;
+  z-index: 2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .time-display {
+    font-size: clamp(4rem, 60vh, 12rem);
+  }
+  
+  .date-display {
+    font-size: clamp(0.8rem, 2.5vh, 1.2rem);
+  }
+}
+
+@media (max-height: 600px) {
+  .time-display {
+    font-size: clamp(3rem, 50vh, 8rem);
+    margin-bottom: 1rem;
+  }
+}

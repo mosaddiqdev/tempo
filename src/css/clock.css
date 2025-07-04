@@ -1,0 +1,62 @@
+/* Clock-specific styles */
+.time-display {
+  font-size: clamp(8rem, 70vh, 20rem);
+  font-weight: 300;
+  line-height: 0.85;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Individual time components for fixed width */
+.hours,
+.minutes {
+  display: inline-block;
+  width: 2.2ch; /* Fixed width to prevent layout shifts */
+  text-align: center;
+  background: linear-gradient(135deg, #f0f0f0 0%, #d0d0d0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 30px rgba(240, 240, 240, 0.15);
+}
+
+.separator {
+  margin: 0 0.1em;
+  opacity: 0.75;
+  background: linear-gradient(135deg, #f0f0f0 0%, #d0d0d0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Date display */
+.date-display {
+  font-size: clamp(1rem, 3vh, 1.5rem);
+  font-weight: 400;
+  opacity: 0.7;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.day {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #b8b8b8;
+}
+
+.date {
+  display: block;
+  color: #9a9a9a;
+  font-weight: 300;
+}
+
+/* Performance optimizations */
+.time-display,
+.date-display {
+  backface-visibility: hidden;
+}
