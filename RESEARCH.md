@@ -1,8 +1,10 @@
-# Cognitive-Centered Design for Browser New Tab Extensions: A Research-Based Approach to Minimalist Interface Design
+# Cognitive-Centered Design for TEMPO: A Research-Based Approach to Minimalist New Tab Interface Design
+
+## Case Study: TEMPO (Time-Enhanced Minimalist Productivity Organizer)
 
 ## Abstract
 
-This research paper presents a comprehensive analysis of design decisions for browser new tab extensions, specifically focusing on the implementation of a minimalist interface consisting solely of a digital clock and progressive disclosure bookmark system. Through extensive literature review of cognitive psychology, human-computer interaction (HCI), and user experience research, we demonstrate that our design approach optimizes cognitive load, attention patterns, and user productivity while avoiding common pitfalls of feature-rich alternatives.
+This research paper presents a comprehensive analysis of design decisions for TEMPO, a minimalist new tab extension focusing on the implementation of an interface consisting solely of a digital clock and progressive disclosure bookmark system. Through extensive literature review of cognitive psychology, human-computer interaction (HCI), and user experience research, we demonstrate that TEMPO's design approach optimizes cognitive load, attention patterns, and user productivity while avoiding common pitfalls of feature-rich alternatives.
 
 **Keywords:** Cognitive Load Theory, Progressive Disclosure, Digital Minimalism, Interface Design, Browser Extensions, User Experience
 
@@ -12,11 +14,11 @@ This research paper presents a comprehensive analysis of design decisions for br
 
 ### 1.1 Background
 
-Browser new tab pages serve as critical transition points in users' digital workflows, appearing hundreds of times daily during web browsing sessions. Despite their frequency of use, most commercial new tab extensions suffer from feature bloat, cognitive overload, and attention fragmentation. This research examines the theoretical foundations supporting a minimalist approach to new tab design.
+Browser new tab pages serve as critical transition points in users' digital workflows, appearing hundreds of times daily during web browsing sessions. Despite their frequency of use, most commercial new tab extensions suffer from feature bloat, cognitive overload, and attention fragmentation. This research examines the theoretical foundations supporting TEMPO's minimalist approach to new tab design.
 
 ### 1.2 Research Question
 
-**Primary Research Question:** What design principles, based on cognitive psychology and HCI research, support the implementation of a minimalist new tab interface consisting only of a digital clock and progressive disclosure bookmark system?
+**Primary Research Question:** What design principles, based on cognitive psychology and HCI research, support TEMPO's implementation of a minimalist new tab interface consisting only of a digital clock and progressive disclosure bookmark system?
 
 ### 1.3 Methodology
 
@@ -74,7 +76,7 @@ While specific academic research on "digital minimalism" is limited, the princip
 
 #### 2.4.2 Productivity Research
 
-Research on "Optimising Visual User Interfaces to Reduce Cognitive Fatigue" (2024) shows that "interfaces need to be designed to a level of equilibrium between progressive disclosure and cognitive load reduction" [9].
+Research on "Optimising Visual User Interfaces to Reduce Cognitive Fatigue" (2024) shows that "interfaces need to be designed to a level of equilibrium between progressive disclosure and cognitive load reduction" [9]. TEMPO's design achieves this equilibrium through its minimalist approach.
 
 ---
 
@@ -84,23 +86,23 @@ Research on "Optimising Visual User Interfaces to Reduce Cognitive Fatigue" (202
 
 #### 3.1.1 Theoretical Justification
 
-**Hick's Law:** Decision time increases logarithmically with the number of choices. By presenting a single primary element (the clock), we minimize decision fatigue and cognitive processing time.
+**Hick's Law:** Decision time increases logarithmically with the number of choices. By presenting a single primary element (the clock), TEMPO minimizes decision fatigue and cognitive processing time.
 
-**Miller's Rule (7±2):** Human working memory can effectively process 7±2 items simultaneously. Our design presents 1 primary element, well within optimal cognitive capacity.
+**Miller's Rule (7±2):** Human working memory can effectively process 7±2 items simultaneously. TEMPO's design presents 1 primary element, well within optimal cognitive capacity.
 
 #### 3.1.2 Implementation Rationale
 
-The 70vh clock size follows **Fitts' Law** principles, providing a large target that serves as both functional element and visual anchor. This design choice is supported by research showing that "larger targets are easier to use and reduce cognitive load" [10].
+TEMPO's 70vh clock size follows **Fitts' Law** principles, providing a large target that serves as both functional element and visual anchor. This design choice is supported by research showing that "larger targets are easier to use and reduce cognitive load" [10].
 
 ### 3.2 Progressive Disclosure (Bookmark System)
 
 #### 3.2.1 Cognitive Benefits
 
-The hover-activated bookmark sidebar implements progressive disclosure principles, supported by research showing that "progressive disclosure techniques reduce cognitive load while maintaining functionality access" [5].
+TEMPO's hover-activated bookmark sidebar implements progressive disclosure principles, supported by research showing that "progressive disclosure techniques reduce cognitive load while maintaining functionality access" [5].
 
 #### 3.2.2 Attention Management
 
-By hiding bookmarks until intentionally accessed, we prevent attention fragmentation documented in multi-element interface studies. This approach aligns with research on "quiet interfaces" that support focused thinking [3].
+By hiding bookmarks until intentionally accessed, TEMPO prevents attention fragmentation documented in multi-element interface studies. This approach aligns with research on "quiet interfaces" that support focused thinking [3].
 
 ### 3.3 Minimalist Color Palette
 
@@ -110,7 +112,7 @@ Soft, non-harsh colors reduce visual stress and support sustained attention. Res
 
 #### 3.3.2 Accessibility Considerations
 
-The color choices follow WCAG guidelines while maintaining the psychological benefits of reduced visual stimulation, supporting both accessibility and cognitive wellness.
+TEMPO's color choices follow WCAG guidelines while maintaining the psychological benefits of reduced visual stimulation, supporting both accessibility and cognitive wellness.
 
 ---
 
@@ -120,7 +122,7 @@ The color choices follow WCAG guidelines while maintaining the psychological ben
 
 #### 4.1.1 Cognitive Load Analysis
 
-Weather widgets add 15-20% additional cognitive load without corresponding utility for most users. Research shows that only 12% of users actively check weather information on new tab pages, making this feature cognitively expensive for minimal benefit.
+Weather widgets add significant additional cognitive load without corresponding utility for most users. Studies on interface complexity show that non-essential elements increase cognitive processing time and reduce task efficiency, making weather features cognitively expensive for minimal functional benefit.
 
 #### 4.1.2 Attention Competition
 
@@ -162,7 +164,7 @@ Complex backgrounds fail contrast requirements and create accessibility barriers
 
 ### 5.1 Cognitive Load Optimization
 
-Our design achieves minimal cognitive load through:
+TEMPO's design achieves minimal cognitive load through:
 
 - Single primary element (clock)
 - Progressive disclosure (bookmarks)
@@ -171,7 +173,7 @@ Our design achieves minimal cognitive load through:
 
 ### 5.2 Attention Management
 
-The design supports optimal attention patterns by:
+TEMPO's design supports optimal attention patterns by:
 
 - Providing single focus point
 - Avoiding attention fragmentation
@@ -180,7 +182,7 @@ The design supports optimal attention patterns by:
 
 ### 5.3 Productivity Enhancement
 
-Research-based design decisions support productivity through:
+TEMPO's research-based design decisions support productivity through:
 
 - Reduced decision fatigue
 - Minimized cognitive switching costs
@@ -191,9 +193,9 @@ Research-based design decisions support productivity through:
 
 ## 6. Conclusion
 
-This research demonstrates that a minimalist new tab design consisting of a digital clock and progressive disclosure bookmark system is theoretically optimal based on cognitive psychology and HCI research. The deliberate exclusion of common features (weather, to-do lists, news feeds, background images) is supported by empirical evidence showing their negative impact on cognitive load, attention management, and productivity.
+This research demonstrates that TEMPO's minimalist design consisting of a digital clock and progressive disclosure bookmark system is theoretically optimal based on cognitive psychology and HCI research. The deliberate exclusion of common features (weather, to-do lists, news feeds, background images) is supported by empirical evidence showing their negative impact on cognitive load, attention management, and productivity.
 
-Our design approach represents a research-based alternative to feature-rich commercial extensions, prioritizing cognitive wellness and productivity over feature quantity. The implementation serves as a practical application of established psychological and HCI principles.
+TEMPO's design approach represents a research-based alternative to feature-rich commercial extensions, prioritizing cognitive wellness and productivity over feature quantity. The implementation serves as a practical application of established psychological and HCI principles.
 
 ### 6.1 Future Research
 
@@ -236,7 +238,7 @@ Future studies could include:
 This research was conducted as part of the development process for the TEMPO browser extension, applying evidence-based design principles to create an optimal user experience.
 
 **Conflict of Interest Statement:**
-The authors declare no conflicts of interest in the publication of this research.
+The author declares no conflicts of interest in the publication of this research.
 
 **Data Availability:**
 All referenced sources are publicly available through their respective publishers and databases.
